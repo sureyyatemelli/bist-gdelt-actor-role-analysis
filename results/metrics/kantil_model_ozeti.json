@@ -1,0 +1,33 @@
+{
+  "inference": {
+    "method": "quantreg bootstrap",
+    "bsmethod": "xy",
+    "R": 500,
+    "seed": 20260902,
+    "reason": "Bootstrap inference was used because nid standard errors generated non-positive sparsity-density estimates."
+  },
+  "reaction_definition": "Goldstein_t -> BIST return_t",
+  "prediction_definition": "Goldstein_t-1 -> BIST return_t",
+  "blocks": {
+    "A_reaction": {
+      "N": 1586,
+      "event_count_mean": 1813.6066,
+      "centered_mean_check": -1.0516e-13
+    },
+    "A_prediction": {
+      "N": 1585,
+      "event_count_mean": 1814.0946,
+      "centered_mean_check": -6.2406e-14
+    },
+    "B_reaction": {
+      "N": 1586,
+      "event_count_mean": 1300.2566,
+      "centered_mean_check": -1.9735e-14
+    },
+    "B_prediction": {
+      "N": 1585,
+      "event_count_mean": 1300.5767,
+      "centered_mean_check": 1.1085e-13
+    }
+  }
+}

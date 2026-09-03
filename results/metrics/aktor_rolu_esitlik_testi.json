@@ -1,0 +1,20 @@
+{
+  "return_unit": "percent",
+  "baseline_actor1_N": 1586,
+  "baseline_actor2_N": 1586,
+  "pooled_model_N": 3172,
+  "main_test": {
+    "method": "Pooled role interaction with HAC Newey-West covariance",
+    "hypothesis": "goldstein:role_dummy = 0",
+    "chi_square": 0.5147,
+    "p_value": 0.4731
+  },
+  "alternative_SUR_test": {
+    "status": "ok",
+    "statistic": 0.0168,
+    "p_value": 0.8969,
+    "hypothesis": "A_goldstein_a1 - B_goldstein_a2 = 0",
+    "N": 1586,
+    "covariance_note": "SUR equality test uses systemfit system covariance. Actor-specific baseline models and the main pooled Wald test use HAC Newey-West."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "return_unit": "percent",
+  "variable_diagnostics": [
+    {
+      "variable": "goldstein_a1",
+      "N": 1586,
+      "unique_values": 1586,
+      "sd": 0.5819,
+      "range": 6.1731,
+      "tied_observations": 0,
+      "max_tie_frequency": 1,
+      "near_constant": false
+    },
+    {
+      "variable": "goldstein_a2",
+      "N": 1586,
+      "unique_values": 1586,
+      "sd": 0.6814,
+      "range": 12,
+      "tied_observations": 0,
+      "max_tie_frequency": 1,
+      "near_constant": false
+    },
+    {
+      "variable": "event_count_a1_c",
+      "N": 1586,
+      "unique_values": 1143,
+      "sd": 1205.3261,
+      "range": 16996,
+      "tied_observations": 752,
+      "max_tie_frequency": 6,
+      "near_constant": false
+    },
+    {
+      "variable": "event_count_a2_c",
+      "N": 1586,
+      "unique_values": 1064,
+      "sd": 930.7938,
+      "range": 14337,
+      "tied_observations": 864,
+      "max_tie_frequency": 6,
+      "near_constant": false
+    },
+    {
+      "variable": "return_vix",
+      "N": 1586,
+      "unique_values": 1579,
+      "sd": 0.08,
+      "range": 0.9966,
+      "tied_observations": 9,
+      "max_tie_frequency": 7,
+      "near_constant": false
+    },
+    {
+      "variable": "return_usdtry",
+      "N": 1586,
+      "unique_values": 1586,
+      "sd": 0.0104,
+      "range": 0.3258,
+      "tied_observations": 0,
+      "max_tie_frequency": 1,
+      "near_constant": false
+    },
+    {
+      "variable": "return_bist_lag1",
+      "N": 1586,
+      "unique_values": 1585,
+      "sd": 0.0177,
+      "range": 0.1973,
+      "tied_observations": 2,
+      "max_tie_frequency": 2,
+      "near_constant": false
+    }
+  ],
+  "exact_zero_p1_quantile_cases": [],
+  "diagnostic_rule": "Cases with coefficient exactly 0 and p=1 are flagged. Independent-variable uniqueness, standard deviation, range and tied observations are reported."
+}

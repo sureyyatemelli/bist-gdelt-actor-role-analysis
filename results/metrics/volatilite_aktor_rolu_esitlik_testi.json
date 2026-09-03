@@ -1,0 +1,34 @@
+{
+  "outcome": "absolute BIST 100 log return",
+  "interpretation": "model-free daily volatility proxy",
+  "return_unit": "percent",
+  "reaction": {
+    "pooled_HAC": {
+      "N": 3170,
+      "newey_west_lag": 8,
+      "chi_square": 0.0419,
+      "p_value": 0.8377
+    },
+    "SUR": {
+      "N": 1585,
+      "chi_square": 0.1498,
+      "p_value": 0.6987,
+      "coefficient_difference_actor1_minus_actor2": 8.0274e-06
+    }
+  },
+  "prediction": {
+    "pooled_HAC": {
+      "N": 3170,
+      "newey_west_lag": 8,
+      "chi_square": 0.0084,
+      "p_value": 0.9268
+    },
+    "SUR": {
+      "N": 1585,
+      "chi_square": 0.0003,
+      "p_value": 0.9866,
+      "coefficient_difference_actor1_minus_actor2": -2.0536e-07
+    }
+  },
+  "note": "The pooled interaction Wald test is the main actor-role equality test and uses a Newey-West HAC covariance matrix. SUR is reported as a complementary cross-equation robustness test and does not use HAC covariance."
+}
