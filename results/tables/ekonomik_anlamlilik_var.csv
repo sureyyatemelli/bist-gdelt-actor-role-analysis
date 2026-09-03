@@ -1,0 +1,7 @@
+goldstein_tercile,N,mean_return,median_return,VaR_5pct,VaR_1pct,role,return_unit,interpretation_note
+Low,529,-0.06214836217362851,0.073195579442068,-2.8545373469409734,-5.353490409135358,Actor1,percent,Indicative historical-simulation exercise only; transaction costs and liquidity constraints are not included.
+Middle,529,0.16789142273131397,0.167168206698511,-2.2210108682774057,-6.092458013556662,Actor1,percent,Indicative historical-simulation exercise only; transaction costs and liquidity constraints are not included.
+High,528,0.2915652907366784,0.29510973694106396,-2.200424442989311,-5.302226860566099,Actor1,percent,Indicative historical-simulation exercise only; transaction costs and liquidity constraints are not included.
+Low,529,-0.006410757634938795,0.11697925990325701,-2.9458573923286395,-7.043798650919286,Actor2,percent,Indicative historical-simulation exercise only; transaction costs and liquidity constraints are not included.
+Middle,529,0.15310239163875755,0.137854993756628,-2.3591342224222482,-5.218927265432946,Actor2,percent,Indicative historical-simulation exercise only; transaction costs and liquidity constraints are not included.
+High,528,0.25053916317416985,0.2868505249118255,-2.2338243580549846,-4.929518152663184,Actor2,percent,Indicative historical-simulation exercise only; transaction costs and liquidity constraints are not included.
