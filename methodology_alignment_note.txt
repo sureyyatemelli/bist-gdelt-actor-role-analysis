@@ -1,0 +1,17 @@
+RIBAF methodology alignment
+
+4.3 Volatility:
+AR_t = |R_t| is used as a model-free daily volatility proxy.
+Actor1 and Actor2 reaction/prediction models are estimated separately.
+Controls: VIX return, USD/TRY return, lagged absolute BIST return.
+Main actor-role equality test: pooled interaction Wald test with Newey-West HAC.
+SUR is complementary only and is not HAC.
+
+4.4 Quantile inference:
+Current code uses se='boot', bsmethod='xy', R=500.
+Report 95% confidence intervals as estimate +/- 1.96 * bootstrap SE.
+Do not call them percentile-bootstrap confidence intervals.
+Do not claim xy-pair bootstrap preserves serial dependence.
+
+Economic significance:
+Historical-simulation VaR by Goldstein tercile; descriptive/indicative only.
