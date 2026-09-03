@@ -1,5 +1,6 @@
 # BIST–GDELT Actor-Role Analysis
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22276874.svg)](https://doi.org/10.5281/zenodo.22276874)
 Reproducible R analysis of BIST 100 responses to GDELT political events, actor roles, volatility, and quantile effects.
 
 ## Overview
